@@ -12,6 +12,7 @@ LSB即为最低有效位（Least Significant Bit，lsb），图片中的图像�
 python encode.py
 ```
 参数说明：
+```
 usage: encode.py [-h] [-img IMG] [-txt TXT] [-result RESULT]
 
 将txt文本藏入png图片
@@ -21,12 +22,13 @@ options:
   -img IMG        原图片地址
   -txt TXT        待编码文本地址
   -result RESULT  编码后图片地址
-  
+```  
 解码：
 ```
 python decode.py
 ```
 参数说明：
+```
 usage: decode.py [-h] [-img IMG] [-refer REFER] [-result RESULT]
 
 从图片中提取隐藏信息
@@ -36,5 +38,6 @@ options:
   -img IMG        待解码的图片的地址
   -refer REFER    原图片地址
   -result RESULT  解码后文字的保存地址
+```
 #### 直接运行python程序
 各文本路径均在定义parser的default参数修改
