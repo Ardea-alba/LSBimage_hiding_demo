@@ -1,0 +1,2 @@
+# LSBimage_hiding_demo
+利用LSB算法将utf8编码的文本藏入图像的python脚本
